@@ -124,3 +124,28 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    color: white;
+    height:20px;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed; /* Fixed to the bottom of the viewport */
+    bottom: 0; /* Align to the bottom */
+    left: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
